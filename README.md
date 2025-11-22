@@ -34,7 +34,6 @@ GPU-Shape-Detection-YOLOv8/
 │
 ├── app/
 │   ├── dashboard.py
-│   ├── realtime_detect.py
 │   ├── plot_graphs.py
 │
 ├── scripts/
@@ -48,11 +47,6 @@ GPU-Shape-Detection-YOLOv8/
 │   ├── data.yaml
 │   └── (dataset ignored)
 │
-├── docs/
-│   ├── Flowchart.png
-│   ├── Research Paper.docx
-│   ├── GPU Poster.pptx
-│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -62,7 +56,7 @@ GPU-Shape-Detection-YOLOv8/
 
 ## 🧠 Dataset
 
-- Source: **Roboflow – Geometric Shapes Dataset**
+- Source: **Roboflow – Geometric Shapes Dataset - ** https://universe.roboflow.com/samarths-new-workspace/geometric-shape
 - Contains **10 classes**:
   Circle, Triangle, Square, Rectangle, Star, Hexagon, Ellipse, Rhombus, Pentagon, Quatrefoil
 - Annotations in YOLO format
