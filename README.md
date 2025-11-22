@@ -14,7 +14,6 @@ The project demonstrates the power of **GPU parallel computing** for deep learni
 ---
 
 ## 🚀 Features
-
 - Real-time detection using YOLOv8
 - GPU-accelerated training and inference (CUDA-enabled)
 - Tkinter GUI with:
@@ -28,7 +27,6 @@ The project demonstrates the power of **GPU parallel computing** for deep learni
 ---
 
 ## 📁 Project Structure
-
 ```
 GPU-Shape-Detection-YOLOv8/
 ├── dashboard.py
@@ -43,7 +41,6 @@ GPU-Shape-Detection-YOLOv8/
 ---
 
 ## 🧠 Dataset
-
 - Source: https://universe.roboflow.com/samarths-new-workspace/geometric-shape
 - Contains **10 classes**:
   Circle, Triangle, Square, Rectangle, Star, Hexagon, Ellipse, Rhombus, Pentagon, Quatrefoil
@@ -53,7 +50,6 @@ GPU-Shape-Detection-YOLOv8/
 ---
 
 ## 🛠️ Installation
-
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/jerry10-ui/GPU-Shape-Detection-YOLOv8.git
@@ -74,7 +70,6 @@ pip install -r requirements.txt
 ---
 
 ## 🧪 Training the Model
-
 ```bash
 python train_main.py
 ```
@@ -87,7 +82,6 @@ shape_train_main/weights/best.pt
 ---
 
 ## 🎥 Running the Application
-
 ### Launch GUI:
 ```bash
 python dashboard.py
@@ -101,7 +95,6 @@ Choose from:
 ---
 
 ## ⚡ GPU Setup Verification
-
 ```bash
 python verify_setup.py
 ```
@@ -115,7 +108,6 @@ GPU: NVIDIA GeForce GTX 1650
 ---
 
 ## 📊 Results
-
 - **FPS:** 30–40 FPS real-time inference
 - **mAP@50:** ~96%
 - **Training Speedup:** 70–80% faster vs CPU
@@ -124,7 +116,6 @@ GPU: NVIDIA GeForce GTX 1650
 ---
 
 ## 🧭 Applications
-
 - Real-time vision systems  
 - Industrial automation  
 - Robotics and navigation  
@@ -133,18 +124,7 @@ GPU: NVIDIA GeForce GTX 1650
 
 ---
 
-## 📚 References
-
-- Ultralytics YOLOv8 Documentation  
-- PyTorch Documentation  
-- NVIDIA CUDA Toolkit  
-- Roboflow Universe Dataset  
-- OpenCV Documentation  
-
----
-
 ## 👤 Author
-
 **Abhay Garg**  
 Software Development (2nd Year)  
 Deep Learning • GPU Computing • Computer Vision
