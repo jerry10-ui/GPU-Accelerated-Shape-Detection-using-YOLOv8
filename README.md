@@ -70,7 +70,7 @@ pip install -r requirements.txt
 ---
 
 ## 🧪 Training the Model
-Replace "project_dir = r"ADD PATH TO THE EXTRACTED REPOSITORY"" with the path to your cloned repository.
+Replace "project_dir = r"ADD PATH TO THE EXTRACTED REPOSITORY"" with the path to your cloned repository in train_main.py
 ```bash
 python train_main.py
 ```
