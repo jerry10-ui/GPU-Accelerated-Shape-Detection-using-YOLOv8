@@ -4,7 +4,7 @@ This project implements a real-time geometric shape detection system using **YOL
 It includes an interactive **Tkinter dashboard** that supports:
 
 - Live webcam detection
-- Video file detection
+- Image and Video file detection
 - Shape draw-pad (user drawing) recognition
 - Text-to-Speech feedback
 - Real-time GPU load & FPS display
@@ -19,7 +19,7 @@ The project demonstrates the power of **GPU parallel computing** for deep learni
 - GPU-accelerated training and inference (CUDA-enabled)
 - Tkinter GUI with:
   - Webcam mode  
-  - Video upload mode  
+  - Image and Video upload mode  
   - Shape drawing pad  
 - Text-to-speech output (pyttsx3)
 - GPU utilization and FPS monitoring (GPUtil)
