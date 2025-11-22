@@ -17,7 +17,7 @@ def main():
         print("⚠️ CUDA not available — training will run on CPU (slower)")
 
     # === 2️⃣ Define dataset and model paths ===
-    project_dir = r"C:\Coding\GPU Project"
+    project_dir = r"ADD PATH TO THE EXTRACTED REPOSITORY"
     data_yaml = os.path.join(project_dir, "dataset", "data.yaml")
     model_name = "yolov8n.pt"  # nano model (fast and light for testing)
 
@@ -56,3 +56,4 @@ def main():
 if __name__ == "__main__":
     torch.multiprocessing.freeze_support()  # required for Windows multiprocessing
     main()
+
