@@ -76,12 +76,12 @@ pip install -r requirements.txt
 ## 🧪 Training the Model
 
 ```bash
-yolo detect train model=yolov8n.pt data=data/data.yaml epochs=100 imgsz=640
+python train_main.py
 ```
 
 The best model weights will be saved in:
 ```
-runs/detect/train/weights/best.pt
+shape_train_main/weights/best.pt
 ```
 
 ---
@@ -90,12 +90,12 @@ runs/detect/train/weights/best.pt
 
 ### Launch GUI:
 ```bash
-python app/dashboard.py
+python dashboard.py
 ```
 
 Choose from:
 - Webcam detection  
-- Video file detection  
+- Image and Video file detection  
 - Draw-pad mode  
 
 ---
@@ -103,7 +103,7 @@ Choose from:
 ## ⚡ GPU Setup Verification
 
 ```bash
-python scripts/verify_setup.py
+python verify_setup.py
 ```
 
 Expected output:
