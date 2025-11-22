@@ -123,8 +123,3 @@ GPU: NVIDIA GeForce GTX 1650
 - Visual inspection and analysis  
 
 ---
-
-## 👤 Author
-**Abhay Garg**  
-Software Development (2nd Year)  
-Deep Learning • GPU Computing • Computer Vision
