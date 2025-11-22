@@ -56,7 +56,7 @@ GPU-Shape-Detection-YOLOv8/
 
 ## 🧠 Dataset
 
-- Source: **Roboflow – Geometric Shapes Dataset - ** https://universe.roboflow.com/samarths-new-workspace/geometric-shape
+- Source: https://universe.roboflow.com/samarths-new-workspace/geometric-shape
 - Contains **10 classes**:
   Circle, Triangle, Square, Rectangle, Star, Hexagon, Ellipse, Rhombus, Pentagon, Quatrefoil
 - Annotations in YOLO format
