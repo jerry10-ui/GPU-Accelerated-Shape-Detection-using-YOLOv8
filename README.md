@@ -30,7 +30,6 @@ The project demonstrates the power of **GPU parallel computing** for deep learni
 ```
 GPU-Shape-Detection-YOLOv8/
 ├── dashboard.py
-├── plot_graphs.py
 ├── train_main.py
 ├── verify_setup.py
 ├── requirements.txt
