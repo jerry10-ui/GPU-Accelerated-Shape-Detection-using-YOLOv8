@@ -1,0 +1,47 @@
+
+---
+
+# ✅ **.gitignore**
+Save as: **.gitignore**
+
+```gitignore
+# Dataset (do not upload)
+dataset/
+data/train/
+data/valid/
+data/test/
+
+# YOLO training outputs
+runs/
+shape_train_cpu/
+shape_train_gpu/
+shape_train_main/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files (except small ones)
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Videos
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment
+env/
+venv/
+*.egg-info
