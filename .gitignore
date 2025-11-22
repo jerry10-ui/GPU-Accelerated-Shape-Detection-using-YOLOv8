@@ -1,9 +1,4 @@
 
----
-
-# ✅ **.gitignore**
-Save as: **.gitignore**
-
 ```gitignore
 # Dataset (do not upload)
 dataset/
