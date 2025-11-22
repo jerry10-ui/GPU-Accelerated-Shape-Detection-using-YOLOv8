@@ -1,0 +1,168 @@
+# GPU-Accelerated Real-Time Shape Detection using YOLOv8
+
+This project implements a real-time geometric shape detection system using **YOLOv8**, **PyTorch**, and **CUDA GPU acceleration**.  
+It includes an interactive **Tkinter dashboard** that supports:
+
+- Live webcam detection
+- Video file detection
+- Shape draw-pad (user drawing) recognition
+- Text-to-Speech feedback
+- Real-time GPU load & FPS display
+
+The project demonstrates the power of **GPU parallel computing** for deep learning inference.
+
+---
+
+## 🚀 Features
+
+- Real-time detection using YOLOv8
+- GPU-accelerated training and inference (CUDA-enabled)
+- Tkinter GUI with:
+  - Webcam mode  
+  - Video upload mode  
+  - Shape drawing pad  
+- Text-to-speech output (pyttsx3)
+- GPU utilization and FPS monitoring (GPUtil)
+- Custom YOLOv8 model trained on 10 geometric shapes
+
+---
+
+## 📁 Project Structure
+
+```
+GPU-Shape-Detection-YOLOv8/
+│
+├── app/
+│   ├── dashboard.py
+│   ├── realtime_detect.py
+│   ├── plot_graphs.py
+│
+├── scripts/
+│   ├── train_main.py
+│   ├── verify_setup.py
+│
+├── model/
+│   └── best.pt  (optional if <100MB)
+│
+├── data/
+│   ├── data.yaml
+│   └── (dataset ignored)
+│
+├── docs/
+│   ├── Flowchart.png
+│   ├── Research Paper.docx
+│   ├── GPU Poster.pptx
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🧠 Dataset
+
+- Source: **Roboflow – Geometric Shapes Dataset**
+- Contains **10 classes**:
+  Circle, Triangle, Square, Rectangle, Star, Hexagon, Ellipse, Rhombus, Pentagon, Quatrefoil
+- Annotations in YOLO format
+- Dataset is *not included* in the repo due to size (ignored by .gitignore)
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/GPU-Shape-Detection-YOLOv8.git
+cd GPU-Shape-Detection-YOLOv8
+```
+
+### 2. Create Conda environment
+```bash
+conda create -n yolov8 python=3.10 -y
+conda activate yolov8
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🧪 Training the Model
+
+```bash
+yolo detect train model=yolov8n.pt data=data/data.yaml epochs=100 imgsz=640
+```
+
+The best model weights will be saved in:
+```
+runs/detect/train/weights/best.pt
+```
+
+---
+
+## 🎥 Running the Application
+
+### Launch GUI:
+```bash
+python app/dashboard.py
+```
+
+Choose from:
+- Webcam detection  
+- Video file detection  
+- Draw-pad mode  
+
+---
+
+## ⚡ GPU Setup Verification
+
+```bash
+python scripts/verify_setup.py
+```
+
+Expected output:
+```
+CUDA available: True
+GPU: NVIDIA GeForce GTX 1650
+```
+
+---
+
+## 📊 Results
+
+- **FPS:** 30–40 FPS real-time inference
+- **mAP@50:** ~96%
+- **Training Speedup:** 70–80% faster vs CPU
+- Highly accurate detection across all 10 geometric shapes
+
+---
+
+## 🧭 Applications
+
+- Real-time vision systems  
+- Industrial automation  
+- Robotics and navigation  
+- AI-powered educational tools  
+- Visual inspection and analysis  
+
+---
+
+## 📚 References
+
+- Ultralytics YOLOv8 Documentation  
+- PyTorch Documentation  
+- NVIDIA CUDA Toolkit  
+- Roboflow Universe Dataset  
+- OpenCV Documentation  
+
+---
+
+## 👤 Author
+
+**Abhay Garg**  
+Software Development (2nd Year)  
+Deep Learning • GPU Computing • Computer Vision
