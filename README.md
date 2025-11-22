@@ -68,13 +68,13 @@ GPU-Shape-Detection-YOLOv8/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/GPU-Shape-Detection-YOLOv8.git
+git clone https://github.com/jerry10-ui/GPU-Shape-Detection-YOLOv8.git
 cd GPU-Shape-Detection-YOLOv8
 ```
 
 ### 2. Create Conda environment
 ```bash
-conda create -n yolov8 python=3.10 -y
+conda create -n yolov8 python=3.11 -y
 conda activate yolov8
 ```
 
