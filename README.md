@@ -29,6 +29,7 @@ The project demonstrates the power of **GPU parallel computing** for deep learni
 ## 📁 Project Structure
 ```
 GPU-Shape-Detection-YOLOv8/
+├── dataset/ (download from the link given below and add to the project folder)
 ├── dashboard.py
 ├── train_main.py
 ├── verify_setup.py
@@ -68,6 +69,19 @@ pip install -r requirements.txt
 
 ---
 
+## ⚡ GPU Setup Verification
+```bash
+python verify_setup.py
+```
+
+Expected output:
+```
+CUDA available: True
+GPU: NVIDIA GeForce GTX 1650
+```
+
+---
+
 ## 🧪 Training the Model
 Replace "project_dir = r"ADD PATH TO THE EXTRACTED REPOSITORY"" with the path to your cloned repository in train_main.py
 ```bash
@@ -91,19 +105,6 @@ Choose from:
 - Webcam detection  
 - Image and Video file detection  
 - Draw-pad mode  
-
----
-
-## ⚡ GPU Setup Verification
-```bash
-python verify_setup.py
-```
-
-Expected output:
-```
-CUDA available: True
-GPU: NVIDIA GeForce GTX 1650
-```
 
 ---
 
