@@ -74,12 +74,6 @@ pip install -r requirements.txt
 python verify_setup.py
 ```
 
-Expected output:
-```
-CUDA available: True
-GPU: NVIDIA GeForce GTX 1650
-```
-
 ---
 
 ## 🧪 Training the Model
