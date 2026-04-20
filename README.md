@@ -13,7 +13,7 @@ The project demonstrates the power of **GPU parallel computing** for deep learni
 
 ---
 
-## 🚀 Features
+## Features
 - Real-time detection using YOLOv8
 - GPU-accelerated training and inference (CUDA-enabled)
 - Tkinter GUI with:
@@ -26,7 +26,7 @@ The project demonstrates the power of **GPU parallel computing** for deep learni
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 GPU-Shape-Detection-YOLOv8/
 ├── dataset/ (download from the link given below and add to the project folder)
@@ -40,7 +40,7 @@ GPU-Shape-Detection-YOLOv8/
 
 ---
 
-## 🧠 Dataset
+## Dataset
 - Source: https://universe.roboflow.com/samarths-new-workspace/geometric-shape
 - Contains **10 classes**:
   Circle, Triangle, Square, Rectangle, Star, Hexagon, Ellipse, Rhombus, Pentagon, Quatrefoil
@@ -49,7 +49,7 @@ GPU-Shape-Detection-YOLOv8/
 
 ---
 
-## 🛠️ Installation
+## Installation
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/jerry10-ui/GPU-Shape-Detection-YOLOv8.git
@@ -69,14 +69,14 @@ pip install -r requirements.txt
 
 ---
 
-## ⚡ GPU Setup Verification
+## GPU Setup Verification
 ```bash
 python verify_setup.py
 ```
 
 ---
 
-## 🧪 Training the Model
+## Training the Model
 Replace "project_dir = r"ADD PATH TO THE EXTRACTED REPOSITORY"" with the path to your cloned repository in train_main.py
 ```bash
 python train_main.py
@@ -89,7 +89,7 @@ shape_train_main/weights/best.pt
 
 ---
 
-## 🎥 Running the Application
+## Running the Application
 ### Launch GUI:
 ```bash
 python dashboard.py
@@ -102,7 +102,7 @@ Choose from:
 
 ---
 
-## 📊 Results
+## Results
 - **FPS:** 30–40 FPS real-time inference
 - **mAP@50:** ~96%
 - **Training Speedup:** 70–80% faster vs CPU
@@ -110,7 +110,7 @@ Choose from:
 
 ---
 
-## 🧭 Applications
+## Applications
 - Real-time vision systems  
 - Industrial automation  
 - Robotics and navigation  
