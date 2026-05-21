@@ -33,9 +33,6 @@ GPU-Shape-Detection-YOLOv8/
 ├── dashboard.py
 ├── train_main.py
 ├── verify_setup.py
-├── requirements.txt
-├── .gitignore
-└── README.md
 ```
 
 ---
