@@ -41,7 +41,8 @@ GPU-Shape-Detection-YOLOv8/
 ---
 
 ## Dataset
-- Source: https://universe.roboflow.com/samarths-new-workspace/geometric-shape
+- Source: Roboflow Geometric Shape Dataset  
+  https://universe.roboflow.com/samarths-new-workspace/geometric-shape
 - Contains **10 classes**:
   Circle, Triangle, Square, Rectangle, Star, Hexagon, Ellipse, Rhombus, Pentagon, Quatrefoil
 - Annotations in YOLO format
@@ -77,7 +78,8 @@ python verify_setup.py
 ---
 
 ## Training the Model
-Replace "project_dir = r"ADD PATH TO THE EXTRACTED REPOSITORY"" with the path to your cloned repository in train_main.py
+Before running the training script, update the `project_dir`
+variable in `train_main.py` with the path to your cloned repository.
 ```bash
 python train_main.py
 ```
@@ -102,19 +104,7 @@ Choose from:
 
 ---
 
-## Results
-- **FPS:** 30–40 FPS real-time inference
-- **mAP@50:** ~96%
-- **Training Speedup:** 70–80% faster vs CPU
-- Highly accurate detection across all 10 geometric shapes
+## Author
 
----
-
-## Applications
-- Real-time vision systems  
-- Industrial automation  
-- Robotics and navigation  
-- AI-powered educational tools  
-- Visual inspection and analysis  
-
----
+Abhay Garg  
+Computer Vision | GPU Computing | Deep Learning
