@@ -106,5 +106,5 @@ Choose from:
 
 ## Author
 
-Abhay Garg  
-Computer Vision | GPU Computing | Deep Learning
+Developed by Abhay Garg
+(Pursuing B.Tech CSE – AI/ML)
